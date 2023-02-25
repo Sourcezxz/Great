@@ -1689,7 +1689,7 @@ async def _(event):
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
 - Done ↣ (@{username})
-- By ↣ @LLL5L - @IQTHON !
+- By ↣ @V_8_V_V - @Ga_X_VV1 !
 - Hunting History ↣ {klinore}
 - Hunting Hour ↣ {klinore2}
     ''')
@@ -1746,7 +1746,7 @@ async def _(event):
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
 - Done ↣ (@{username})
-- By ↣ @LLL5L - @IQTHON !
+- By ↣ @V_8_V_V - @Ga_X_VV1 !
 - Hunting History ↣ {klinore}
 - Hunting Hour ↣ {klinore2}
     ''')
@@ -1780,7 +1780,7 @@ async def _(event):
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
 - Done ↣ (@{username})
-- By ↣ @LLL5L - @IQTHON !
+- By ↣ @V_8_V_V - @Ga_X_VV1 !
 - Hunting History ↣ {klinore}
 - Hunting Hour ↣ {klinore2}
     ''')
@@ -2456,7 +2456,7 @@ async def reda(event):
                     except BaseException as er:
                         await iqthon .tgbot.send_message(BOTLOG_CHATID, f"حدث خطا \n{er}")
                 if "error_code" in reqt:
-                    await iqthon .tgbot.send_message(BOTLOG_CHATID, f"**حدث خطأ غير معروف قم باعادة توجيه الرسالة ل @lll5l لحل المشكلة\n{reqt}**")
+                    await iqthon .tgbot.send_message(BOTLOG_CHATID, f"**حدث خطأ غير معروف قم باعادة توجيه الرسالة ل @V_8_V_V لحل المشكلة\n{reqt}**")
                 
                 return
             except BaseException as er:
